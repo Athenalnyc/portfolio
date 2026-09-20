@@ -110,3 +110,22 @@ html.lang-en [data-en] {
 .nav-link.active {
   color: #1d4ed8;
 }
+
+/* ---------- 首屏渐入动画 ---------- */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.hero-anim {
+  animation: fadeInUp 0.6s ease-out both;
+}
+.hero-anim.d1 { animation-delay: 0.12s; }
+.hero-anim.d2 { animation-delay: 0.24s; }
+.hero-anim.d3 { animation-delay: 0.36s; }
+.hero-anim.d4 { animation-delay: 0.48s; }
