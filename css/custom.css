@@ -1,0 +1,112 @@
+/* ============================================
+   个人简历 · 自定义样式
+   配色：低饱和蓝 + 白底 + 充足留白
+   ============================================ */
+
+/* 平滑滚动 + 锚点偏移（补偿固定导航栏高度） */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+/* ---------- 双语切换（默认中文，英文隐藏） ---------- */
+[data-en] {
+  display: none;
+}
+html.lang-en [data-zh] {
+  display: none;
+}
+html.lang-en [data-en] {
+  display: revert;
+}
+
+/* ---------- 求职意向标签 ---------- */
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.875rem;
+  background: #eff6ff;
+  color: #1d4ed8;
+  border: 1px solid #bfdbfe;
+  border-radius: 9999px;
+}
+
+/* ---------- 按钮 ---------- */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.625rem 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #ffffff;
+  background: #1d4ed8;
+  border-radius: 0.5rem;
+  transition: background 0.15s ease;
+}
+.btn-primary:hover {
+  background: #1e40af;
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.625rem 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #1d4ed8;
+  background: #ffffff;
+  border: 1px solid #bfdbfe;
+  border-radius: 0.5rem;
+  transition: background 0.15s ease;
+}
+.btn-secondary:hover {
+  background: #eff6ff;
+}
+
+/* ---------- 板块标题 ---------- */
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0f172a;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+/* ---------- 卡片（教育 / 实习 / 科研 / 技能） ---------- */
+.edu-card,
+.exp-card,
+.skill-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+.edu-card:hover,
+.exp-card:hover,
+.skill-card:hover {
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.06);
+  transform: translateY(-2px);
+}
+
+/* ---------- 联系方式卡片 ---------- */
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 1rem 1.25rem;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.contact-item:hover {
+  border-color: #bfdbfe;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.06);
+}
+
+/* ---------- 导航链接高亮 ---------- */
+.nav-link.active {
+  color: #1d4ed8;
+}

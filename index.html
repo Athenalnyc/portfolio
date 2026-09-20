@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>倪源辰 NI Yuanchen (Eric) — 个人简历</title>
+  <meta name="description" content="倪源辰的个人作品集：战略投资 / 产品经理 / 产业研究 / 政府事务 / 风险投资" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/custom.css" />
+</head>
+<body class="bg-white text-slate-700 antialiased font-sans">
+
+  <!-- ===================== 顶部导航 ===================== -->
+  <header class="fixed top-0 inset-x-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200">
+    <nav class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+      <!-- 姓名标识 -->
+      <a href="#hero" class="text-lg font-semibold text-slate-900 tracking-tight">
+        <span data-zh>倪源辰</span><span data-en class="hidden">NI Yuanchen</span>
+      </a>
+
+      <!-- 锚点导航（桌面端） -->
+      <div class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#summary" class="nav-link text-slate-600 hover:text-blue-700 transition" data-zh>概述</a>
+        <a href="#summary" class="nav-link text-slate-600 hover:text-blue-700 transition hidden" data-en>Summary</a>
+        <a href="#education" class="nav-link text-slate-600 hover:text-blue-700 transition" data-zh>教育</a>
+        <a href="#education" class="nav-link text-slate-600 hover:text-blue-700 transition hidden" data-en>Education</a>
+        <a href="#experience" class="nav-link text-slate-600 hover:text-blue-700 transition" data-zh>实习</a>
+        <a href="#experience" class="nav-link text-slate-600 hover:text-blue-700 transition hidden" data-en>Experience</a>
+        <a href="#research" class="nav-link text-slate-600 hover:text-blue-700 transition" data-zh>科研</a>
+        <a href="#research" class="nav-link text-slate-600 hover:text-blue-700 transition hidden" data-en>Research</a>
+        <a href="#skills" class="nav-link text-slate-600 hover:text-blue-700 transition" data-zh>技能</a>
+        <a href="#skills" class="nav-link text-slate-600 hover:text-blue-700 transition hidden" data-en>Skills</a>
+        <a href="#contact" class="nav-link text-slate-600 hover:text-blue-700 transition" data-zh>联系</a>
+        <a href="#contact" class="nav-link text-slate-600 hover:text-blue-700 transition hidden" data-en>Contact</a>
+      </div>
+
+      <!-- 语言切换按钮 -->
+      <button id="lang-toggle" class="text-sm font-medium px-3 py-1.5 rounded-full border border-blue-200 text-blue-700 bg-blue-50 hover:bg-blue-100 transition">
+        EN
+      </button>
+    </nav>
+  </header>
+
+  <!-- ===================== Hero 首屏 ===================== -->
+  <section id="hero" class="pt-28 pb-16 bg-gradient-to-b from-slate-50 to-white">
+    <div class="max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center gap-10">
+      <!-- 头像 -->
+      <img src="assets/img/avatar.jpg" alt="倪源辰 NI Yuanchen" class="w-36 h-36 md:w-44 md:h-44 rounded-full object-cover ring-4 ring-white shadow-lg" />
+
+      <!-- 姓名 + Slogan + 意向 -->
+      <div class="text-center md:text-left">
+        <h1 class="text-3xl md:text-4xl font-bold text-slate-900 tracking-tight">
+          <span data-zh>倪源辰</span><span data-en class="hidden">NI Yuanchen <span class="text-slate-500 font-medium">(Eric)</span></span>
+        </h1>
+        <p class="mt-3 text-lg text-slate-600 max-w-xl">
+          <span data-zh>聚焦战略投资与产业研究的多元背景经济学硕士</span>
+          <span data-en class="hidden">Economics master with cross-sector experience in strategic investment, industry research and government affairs</span>
+        </p>
+
+        <!-- 求职意向标签 -->
+        <div class="mt-5 flex flex-wrap gap-2 justify-center md:justify-start">
+          <span class="tag" data-zh>战略投资</span><span class="tag hidden" data-en>Strategic Investment</span>
+          <span class="tag" data-zh>产品经理</span><span class="tag hidden" data-en>Product Management</span>
+          <span class="tag" data-zh>产业研究</span><span class="tag hidden" data-en>Industry Research</span>
+          <span class="tag" data-zh>政府事务</span><span class="tag hidden" data-en>Government Affairs</span>
+          <span class="tag" data-zh>风险投资</span><span class="tag hidden" data-en>Venture Capital</span>
+        </div>
+
+        <!-- 快捷联系 -->
+        <div class="mt-6 flex flex-wrap gap-3 justify-center md:justify-start">
+          <a href="mailto:niyuanchen0407@gmail.com" class="btn-primary">
+            <span data-zh>联系我</span><span data-en class="hidden">Contact Me</span>
+          </a>
+          <a href="https://www.linkedin.com/in/yuanchen-ni-4a5837344" target="_blank" rel="noopener" class="btn-secondary">
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 求职概述 ===================== -->
+  <section id="summary" class="py-16">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="section-title"><span data-zh>求职概述</span><span data-en class="hidden">Professional Summary</span></h2>
+      <p class="mt-4 text-slate-600 leading-relaxed max-w-4xl">
+        <span data-zh>香港大学经济学硕士在读（预计2027年6月毕业），拥有政府机构研究院、AI初创公司和证券研究所的多元实习背景，覆盖产业研究、战略投资、行业研究等方向。中文普通话和英文流利，目标岗位包括战略投资、政府事务、市场研究、产业研究等。</span>
+        <span data-en class="hidden">Master of Economics candidate (expected Jun 2027) with three internships spanning industry research at CAICT, strategic investment at an AI startup, and securities research. Mandarin/English bilingual, Cantonese improving. Targeting strategic investment, government affairs, market analysis and product management in Hong Kong.</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- ===================== 教育背景 ===================== -->
+  <section id="education" class="py-16 bg-slate-50">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="section-title"><span data-zh>教育背景</span><span data-en class="hidden">Education</span></h2>
+
+      <div class="mt-8 space-y-6">
+        <!-- 港大 -->
+        <div class="edu-card">
+          <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-1">
+            <h3 class="text-lg font-semibold text-slate-900">
+              <span data-zh>香港大学</span><span data-en class="hidden">The University of Hong Kong</span>
+            </h3>
+            <span class="text-sm text-blue-700 font-medium"><span data-zh>2026.9 – 2027.6（预计）</span><span data-en class="hidden">Sep 2026 – Jun 2027 (Expected)</span></span>
+          </div>
+          <p class="text-slate-600 mt-1">
+            <span data-zh>经济学硕士</span><span data-en class="hidden">Master of Economics</span>
+          </p>
+        </div>
+
+        <!-- 北大 -->
+        <div class="edu-card">
+          <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-1">
+            <h3 class="text-lg font-semibold text-slate-900">
+              <span data-zh>北京大学</span><span data-en class="hidden">Peking University</span>
+            </h3>
+            <span class="text-sm text-blue-700 font-medium"><span data-zh>2022.9 – 2026.6</span><span data-en class="hidden">Sep 2022 – Jun 2026</span></span>
+          </div>
+          <p class="text-slate-600 mt-1">
+            <span data-zh>哲学-经济学双学位学士</span><span data-en class="hidden">B.A. in Philosophy and Economics (Dual Degree)</span>
+          </p>
+          <p class="text-slate-600 mt-1">
+            <span data-zh>GPA: 3.71 / 4.0</span><span data-en class="hidden">GPA: 3.71 / 4.0</span>
+          </p>
+          <p class="text-slate-600 mt-1">
+            <span class="text-slate-500" data-zh>已修课程：</span><span class="text-slate-500" data-en class="hidden">Completed Courses: </span>
+            <span data-zh>高等数学、线性代数；货币银行学、中国宏观经济、投资研究；人工智能哲学等</span>
+            <span data-en class="hidden">Advanced Mathematics, Linear Algebra; Monetary Banking, Chinese Macroeconomy, Investment Research; Philosophy of AI, etc.</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 实习经历 ===================== -->
+  <section id="experience" class="py-16">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="section-title"><span data-zh>实习经历</span><span data-en class="hidden">Internship Experience</span></h2>
+
+      <div class="mt-8 space-y-8">
+        <!-- 实习1：信通院 -->
+        <article class="exp-card">
+          <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
+            <div>
+              <h3 class="text-lg font-semibold text-slate-900">
+                <span data-zh>中国信息通信研究院</span><span data-en class="hidden">China Academy of Information and Communications Technology (CAICT)</span>
+              </h3>
+              <p class="text-blue-700 font-medium mt-1">
+                <span data-zh>国际合作部 · 人工智能研究所 —— 行业研究助理</span>
+                <span data-en class="hidden">International Cooperation Department, AI Research Institute — Research Assistant</span>
+              </p>
+            </div>
+            <span class="text-sm text-slate-500 whitespace-nowrap"><span data-zh>2026.3 – 2026.6</span><span data-en class="hidden">Mar 2026 – Jun 2026</span></span>
+          </div>
+          <ul class="mt-4 space-y-2 text-slate-600 leading-relaxed list-disc list-inside">
+            <li data-zh>追踪并分析美国基础模型政策、印度AI监管框架及巴黎AI机构战略动向，主导撰写50+份AI出海国别报告，系统涵盖各国经济、政治、科技及AI发展概况，并为中国企业出海提供战略指引；</li>
+            <li data-en>Tracked and analyzed U.S. foundation model policies, India's AI regulatory landscape, and Paris's key AI bodies, producing over 50 nation-specific reports that synthesized each country's economic, political and AI readiness;</li>
+            <li data-zh>深度参与金砖国家AI出海研究及东盟产业创新中心筹建工作，负责会议纪要撰写、新闻通稿编发及启动仪式筹备，现场接待20余位东盟国家政府官员及龙头企业代表。</li>
+            <li data-en>Organized BRICS AI governance research and news release, delivered leadership speeches at the ASEAN Industrial Innovation Center, and hosted over 20 senior officials and flagship enterprise representatives from ASEAN member states.</li>
+          </ul>
+        </article>
+
+        <!-- 实习2：面壁智能 -->
+        <article class="exp-card">
+          <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
+            <div>
+              <h3 class="text-lg font-semibold text-slate-900">
+                <span data-zh>面壁智能科技有限责任公司</span><span data-en class="hidden">ModelBest Technology Co., Ltd.</span>
+              </h3>
+              <p class="text-blue-700 font-medium mt-1">
+                <span data-zh>AI初创公司 —— 战略投资组（政府关系）助理</span>
+                <span data-en class="hidden">AI Startup — Strategic Investment (Government Relations) Assistant</span>
+              </p>
+            </div>
+            <span class="text-sm text-slate-500 whitespace-nowrap"><span data-zh>2025.6 – 2025.9</span><span data-en class="hidden">Jun 2025 – Sep 2025</span></span>
+          </div>
+          <ul class="mt-4 space-y-2 text-slate-600 leading-relaxed list-disc list-inside">
+            <li data-zh>持续追踪GitHub、Hugging Face等平台的AI项目动态，深入研究面壁智能MiniCPM模型及OpenBMB的开源策略；</li>
+            <li data-en>Monitored open-source AI ecosystem trends on GitHub and Hugging Face, completed a research report on open-source development, and examined the open-source platform data for ModelBest's MiniCPM and OpenBMB projects;</li>
+            <li data-zh>统筹算力资源申报工作，协同财务及法务部门整理采购发票与合同，完成最终文档上报，成功帮助公司获得政府算力补贴与政策支持。</li>
+            <li data-en>Directed the drafting and coordination of computing resource applications; collaborated with finance and legal to compile procurement invoices and contracts, submitted final reports, and secured government subsidies for computing infrastructure.</li>
+          </ul>
+        </article>
+
+        <!-- 实习3：天风证券 -->
+        <article class="exp-card">
+          <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
+            <div>
+              <h3 class="text-lg font-semibold text-slate-900">
+                <span data-zh>天风证券研究所</span><span data-en class="hidden">TianFeng Securities Research Institute</span>
+              </h3>
+              <p class="text-blue-700 font-medium mt-1">
+                <span data-zh>医药组 —— 行业研究助理</span>
+                <span data-en class="hidden">Pharmaceutical Team — Industry Research Assistant</span>
+              </p>
+            </div>
+            <span class="text-sm text-slate-500 whitespace-nowrap"><span data-zh>2025.1 – 2025.5</span><span data-en class="hidden">Jan 2025 – May 2025</span></span>
+          </div>
+          <ul class="mt-4 space-y-2 text-slate-600 leading-relaxed list-disc list-inside">
+            <li data-zh>合作撰写济川药业、一品红、华大智造等10余家公司点评及深度报告，并完成财务底稿和财报数据整理；</li>
+            <li data-en>Co-authored in-depth research reports and company notes on 10+ listed firms (e.g., Jichuan, Yipinhong, Huada Zhizao), covering innovative drugs, medical devices, and AI healthcare;</li>
+            <li data-zh>协助筹备2025年春季策略会，现场接待20余位企业代表及投资人，聚焦AI赋能医药投资策略，形成多份专家纪要。</li>
+            <li data-en>Supported the spring strategy conference by preparing meeting minutes and liaising with company delegates and investors; also examined AI-driven healthcare strategies and synthesized findings into 10+ expert reports.</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 科研经历 ===================== -->
+  <section id="research" class="py-16 bg-slate-50">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="section-title"><span data-zh>科研经历</span><span data-en class="hidden">Research</span></h2>
+
+      <div class="mt-8 exp-card">
+        <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
+          <div>
+            <h3 class="text-lg font-semibold text-slate-900">
+              <span data-zh>张铧兮组</span><span data-en class="hidden">Associate Professor ZHANG Huaxi</span>
+            </h3>
+            <p class="text-blue-700 font-medium mt-1">
+              <span data-zh>南开大学金融学院副教授、清华大学五道口金融学院博士后 —— 助理研究员</span>
+              <span data-en class="hidden">School of Finance, Nankai University — Research Assistant</span>
+            </p>
+          </div>
+          <span class="text-sm text-slate-500 whitespace-nowrap"><span data-zh>2025.4 – 2026.4</span><span data-en class="hidden">Apr 2025 – Apr 2026</span></span>
+        </div>
+        <ul class="mt-4 space-y-2 text-slate-600 leading-relaxed list-disc list-inside">
+          <li data-zh>研究西周质剂与稳定币监管的关联性，合作成果发表于《清华金融评论》（2026年3月）；</li>
+          <li data-en>Conducted research on the relationship between the financial history of Western Zhou-era debt instruments ("Zhiji") and modern stablecoin regulation, resulting in co-authored articles published in Tsinghua Financial Review (March 2026);</li>
+          <li data-zh>组会专题研究金融前沿，涵盖稳定币演进史、Web3及RWA概念，并完成中美、新加坡及中国香港四地的稳定币监管制度对比。</li>
+          <li data-en>Researched stablecoin development and the comparative regulatory landscape of Web3 among China, the U.S. and Singapore.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 校园活动 & 技能 ===================== -->
+  <section id="skills" class="py-16">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="section-title"><span data-zh>校园活动 &amp; 技能</span><span data-en class="hidden">Activities &amp; Skills</span></h2>
+
+      <div class="mt-8 grid md:grid-cols-2 gap-6">
+        <!-- 语言能力 -->
+        <div class="skill-card">
+          <h3 class="font-semibold text-slate-900">
+            <span data-zh>语言能力</span><span data-en class="hidden">Languages</span>
+          </h3>
+          <p class="text-blue-700 text-sm font-medium mt-1">
+            <span data-zh>中文-普通话（母语），英语（职业）</span>
+            <span data-en class="hidden">Mandarin (native), English (professional)</span>
+          </p>
+          <ul class="mt-2 text-sm text-slate-600 space-y-1">
+            <li data-zh>四级616、六级564，托福阅读单项满分；</li>
+            <li data-en>CET-4: 616, CET-6: 564; Perfect score in TOEFL Reading;</li>
+            <li data-zh>通过北大国际合作部英文面试选拔，2024年秋季学期赴爱丁堡大学交换；</li>
+            <li data-en>Selected via PKU International Office English interview for a fall 2024 exchange at the University of Edinburgh;</li>
+            <li data-zh>获北京大学英语演讲比赛优胜奖。</li>
+            <li data-en>Winner of the Peking University English Speech Contest (Merit Award).</li>
+          </ul>
+        </div>
+
+        <!-- 写作能力 -->
+        <div class="skill-card">
+          <h3 class="font-semibold text-slate-900">
+            <span data-zh>写作能力</span><span data-en class="hidden">Writing</span>
+          </h3>
+          <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+            <span data-zh>担任北大足球协会宣传部部长，累计撰写和发布60余篇赛事推文。</span>
+            <span data-en class="hidden">As Head of Publicity Department, PKU Football Association, published 60+ match recaps and event posts.</span>
+          </p>
+        </div>
+
+        <!-- 组织能力 -->
+        <div class="skill-card">
+          <h3 class="font-semibold text-slate-900">
+            <span data-zh>组织能力</span><span data-en class="hidden">Organization</span>
+          </h3>
+          <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+            <span data-zh>担任北京大学百周年纪念讲堂志愿者组长，累计组织协调50余场大型志愿活动。</span>
+            <span data-en class="hidden">As Volunteer Team Leader at Peking University Centennial Hall, coordinated 50+ large-scale volunteer events.</span>
+          </p>
+        </div>
+
+        <!-- 视频能力 -->
+        <div class="skill-card">
+          <h3 class="font-semibold text-slate-900">
+            <span data-zh>视频能力</span><span data-en class="hidden">Video</span>
+          </h3>
+          <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+            <span data-zh>担任"北大-台大-云大"学生支教组织宣介视频导演，负责编剧与剪辑等工作。</span>
+            <span data-en class="hidden">Directed a promotional video for the "PKU-NTU-YNU" joint student volunteer teaching program.</span>
+          </p>
+        </div>
+
+        <!-- 其他技能 -->
+        <div class="skill-card md:col-span-2">
+          <h3 class="font-semibold text-slate-900">
+            <span data-zh>其他技能</span><span data-en class="hidden">Other Skills</span>
+          </h3>
+          <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+            <span data-zh>熟练掌握PPT、Wind、底稿整理、公文撰写等。</span>
+            <span data-en class="hidden">Proficient in PowerPoint, Wind, financial data maintenance, and official document drafting.</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 联系方式 ===================== -->
+  <section id="contact" class="py-16 bg-slate-50">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="section-title"><span data-zh>联系方式</span><span data-en class="hidden">Contact</span></h2>
+
+      <div class="mt-8 grid md:grid-cols-2 gap-4 max-w-2xl">
+        <a href="tel:+85246369434" class="contact-item">
+          <span class="text-2xl">📱</span>
+          <div>
+            <p class="text-sm text-slate-500"><span data-zh>电话（香港）</span><span data-en class="hidden">Phone (HK)</span></p>
+            <p class="text-slate-900 font-medium">852-46369434</p>
+          </div>
+        </a>
+        <a href="tel:+8613810407360" class="contact-item">
+          <span class="text-2xl">📱</span>
+          <div>
+            <p class="text-sm text-slate-500"><span data-zh>电话（内地）</span><span data-en class="hidden">Phone (Mainland)</span></p>
+            <p class="text-slate-900 font-medium">86-13810407360</p>
+          </div>
+        </a>
+        <a href="mailto:niyuanchen0407@gmail.com" class="contact-item">
+          <span class="text-2xl">✉️</span>
+          <div>
+            <p class="text-sm text-slate-500"><span data-zh>邮箱</span><span data-en class="hidden">Email</span></p>
+            <p class="text-slate-900 font-medium break-all">niyuanchen0407@gmail.com</p>
+          </div>
+        </a>
+        <a href="https://www.linkedin.com/in/yuanchen-ni-4a5837344" target="_blank" rel="noopener" class="contact-item">
+          <span class="text-2xl">💼</span>
+          <div>
+            <p class="text-sm text-slate-500">LinkedIn</p>
+            <p class="text-slate-900 font-medium">yuanchen-ni</p>
+          </div>
+        </a>
+      </div>
+
+      <p class="mt-8 text-sm text-slate-500">
+        <span data-zh>2027年6月30日后可入职全职岗位（已取得NOL）</span>
+        <span data-en class="hidden">Available for full-time job by 30th June, 2027 (NOL already obtained)</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer class="py-8 border-t border-slate-200">
+    <p class="text-center text-sm text-slate-400">
+      © 2026 <span data-zh>倪源辰</span><span data-en class="hidden">NI Yuanchen (Eric)</span> ·
+      <span data-zh>个人简历</span><span data-en class="hidden">Personal Resume</span>
+    </p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
